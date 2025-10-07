@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #003366;
+  padding: 20px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header .logo a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+header .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+header .nav-links li {
+  margin-left: 20px;
+}
+
+header .nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.cta-btn a {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cta-btn a:hover {
+  background-color: #e65500;
+}
+
+.hero {
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 20px;
+  background-color: #2d2d2d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.summit-highlights {
+  padding: 60px 20px;
+  background-color: #e6f7ff;
+}
+
+.summit-highlights h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.summit-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.summit-card {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.summit-card h3 {
+  font-size: 24px;
+}
+
+.summit-card a {
+  color: #ff6600;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.why-attend {
+  padding: 60px 20px;
+}
+
+.why-attend h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.reasons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.reason {
+  text-align: center;
+  width: 200px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer .contact-info p {
+  margin: 10px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .summit-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    padding: 50px 20px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+}
