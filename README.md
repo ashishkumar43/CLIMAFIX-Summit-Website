@@ -20,3 +20,6 @@ https://climafix.in/summit/2025/
 Try redesigning the home page such that it projects the highlights of the CLIMAFIX Summit. And submit the live links with Zip file.
 
 ![Climafix Image](https://github.com/ashishkumar43/CLIMAFIX-Summit-Website/blob/main/Climafix%20Webpage.png)
+
+# Live Demo Link:
+ Checkout : https://climafixsummitwebsite.netlify.app/
